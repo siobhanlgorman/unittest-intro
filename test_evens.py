@@ -7,5 +7,9 @@ class TestEvens(unittest.TestCase):
         self.assertRaises(TypeError, even_number_of_evens, 4)
 
 
+    def test_values_in_list(self):
+        self.assertEqual(even_number_of_evens([]), False)
+        
+
 if __name__ == '__main__':
     unittest.main()
