@@ -9,6 +9,8 @@ def even_number_of_evens(numbers):
     if isinstance(numbers, list):
         evens = 0
 
+        print([n for n in numbers])
+
         for n in numbers:
             if n % 2 == 0:
                 evens += 1
@@ -21,4 +23,4 @@ def even_number_of_evens(numbers):
 
 
 if __name__ == '__main__':
-    print(even_number_of_evens(5))
+    print(even_number_of_evens([2, 1, 4]))
