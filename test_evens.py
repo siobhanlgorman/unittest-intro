@@ -9,6 +9,7 @@ class TestEvens(unittest.TestCase):
 
     def test_values_in_list(self):
         self.assertEqual(even_number_of_evens([]), False)
+        self.assertEqual(even_number_of_evens([2, 4]), True)
         
 
 if __name__ == '__main__':
