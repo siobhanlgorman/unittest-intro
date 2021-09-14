@@ -7,7 +7,7 @@ def even_number_of_evens(numbers):
     if the numner of even numbers is even - return True
     """
 
-    return True
+    return None
 
 
 if __name__ == '__main__':
